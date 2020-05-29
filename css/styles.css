@@ -1,0 +1,527 @@
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  padding-bottom: 20px;
+  color: #5a5a5a;
+}
+.menu_logo {
+  width: 50px;
+  height: 45px;
+  top: 3px;
+  position: fixed;
+  margin-right: 30px;
+}
+#log {
+  font-size: 16px;
+  margin-left: 50px;
+  color: white;
+}
+#service {
+  padding: 5px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  margin-left:  10px;
+  margin-right: 5px;
+}
+#service .titulo {
+  color: #a3d8ff;
+}
+#service img {
+	margin-left: 70px;
+}
+#service  .ps {
+	color: white;
+}
+.servicios{
+  background-color: #222222; 
+  width: 100%; 
+  top: -4px; 
+  position: relative; 
+  padding-bottom: 100px;
+}
+#title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+#fotografia, #diseno, #asesoria, #testimonios, #aliados {
+  padding-top: 20px;
+}    
+.imagen {
+  filter: opacity(.5);
+}
+.imagen:hover {
+  transition:all .5s ease-in-out;
+  filter: opacity(1);
+}
+.imagen-servicios:hover {filter: grayscale(80%);}
+.imagen1:hover {-webkit-transform:scale(0.9);transform:scale(0.9);}
+.imagen1 {overflow:hidden;}
+ul li.etiqueta{
+  font-size: 14pt;
+  color: #5dc4d9;
+  font-family: robot;
+  text-align: center;
+  text-shadow: white;
+}
+.telefono-mobil{
+  display: none;
+}
+.telefono-web{
+  font-size: 10pt;
+}
+.img-cabecera-mobil{
+  display: none;
+}
+.appWhatsapp{
+  display: none;
+  position: fixed;
+  right: 26px;
+  bottom: 100px;
+  width: 60px;
+ z-index: 1000;
+}
+.appWhatsapp img {
+  width: 100%;
+  height: auto;
+}
+.face-chat{
+  display: block;
+}
+hr {
+	background-color: #4682B4;
+}
+.foto-clients {
+  z-index: 999;
+}
+.titulo-head {
+  font-size: 20px;
+  width: 350px; 
+  padding: 10px;
+}
+.centrar-img {
+  margin-left:  20%;
+}
+.centrar-img-2 {
+  margin-left: 30%;
+}
+.portfolio-modal .modal-dialog {
+  background-color: white;
+  width: 1079px;
+  padding: 10px;
+}
+.portfolio-modal .modal-dialog img {
+  margin: 10px;
+}
+#modal-vertical {  
+  width: 540px;
+  padding: 10px;
+}
+#modal-vertical img {
+  margin: 10px;
+  margin-left: 290px;
+  margin-top: 2px;
+  padding-bottom: 2px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.vinculos{
+  color: #29088A;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.lead a {
+  text-decoration: none;
+}
+.lead a:hover {
+  text-decoration: underline;
+}
+.titulo-head {
+  width: 350px; 
+  padding: 10px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 2;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color:#fff;
+  margin-bottom: 0px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 600px;
+}
+/* HEADER TEXT */
+#headertxt { width:960px; margin:0 auto; clear:both; position:relative; top:100px; }
+#firstline { background-image:url("../images/textbg.png"); color:#333; font-size:24px; padding:2px 2px 2px; float: right; display:block; }
+#secondline { background-image:url("../images/textbg.png"); text-decoration:underline; color:#CD2B3A; text-decoration:none; font-size:45px; padding:0 2px 2px; padding-top: 1px; float:right; display:block; clear:both; }
+#firstline-about { background-image:url("../images/textbg-about.png"); color:#54ddff; font-size:24px; padding:2px 2px 2px; float: left; display:block; }
+
+.pictured { background-color:#CC3333; color:#FFF; font-size:12px; padding:5px 10px; text-transform:uppercase; float: right; display:block; clear:both; margin-top:5px; }
+.pictured a { font-size:16px; font-style:italic; letter-spacing:0; text-transform:none; color:#FFF; text-decoration:none; }
+.pictured a:hover { text-decoration:underline; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  background-color: #222222;
+  height: 1px;
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Backgrounds
+----------------------------------------------------------------------------- */
+.default-bg {
+  background-color: #222222;
+  color: #ffffff;
+}
+.default-bg.cabecera{
+background-color: #440888;
+}
+.default-bg.blue {
+  background-color: #55acee;
+}
+.translucent-bg {
+  color: #ffffff;
+}
+.default-bg h1,
+.default-bg h2,
+.default-bg h3,
+.default-bg h4,
+.default-bg h5,
+.default-bg h6,
+.translucent-bg h1,
+.translucent-bg h2,
+.translucent-bg h3,
+.translucent-bg h4,
+.translucent-bg h5,
+.translucent-bg h6 {
+  color: #ffffff;
+}
+.default-bg blockquote footer,
+.translucent-bg blockquote footer {
+  color: #cccccc;
+}
+footer h4{
+  color: #fff;
+}
+.default-bg a,
+.translucent-bg a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.default-bg a:hover,
+.translucent-bg a:hover {
+  text-decoration: none;
+}
+.translucent-bg {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+}
+.translucent-bg .translucent-bg {
+  margin-top: 80px;
+  z-index: 3;
+}
+.translucent-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.translucent-bg.cabecera:after {
+  background-color: rgba(68, 8, 136, 0.5);
+}
+.translucent-bg.blue:after {
+  background-color: rgba(85, 172, 238, 0.7);
+}
+.translucent-bg .container {
+  z-index: 3;
+  position: relative;
+}
+.bg-image-1 {
+  background: url("../images/bg-image-1.jpg") 30% 0px no-repeat;
+}
+.bg-image-2 {
+  background: url("../images/bg-image-2.jpg") 30% 0px no-repeat;
+}
+/* Testimonials
+---------------------------------- */
+.tertimonial {
+  float: right;
+}
+.testimonial .media-left {
+  width: 60px;
+}
+.pb-clear {
+  padding-bottom: 0;
+}
+.space {
+  padding: 20px 0;
+}
+.space p{
+  padding-right: 20px;
+}
+.list-horizontal {
+  padding: 15px 0px;
+}
+.list-horizontal-item img {
+  display: block;
+  margin: 0 auto;
+  padding: 15px, 0px;
+}
+.section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+cite {
+  color: #3399CC;
+}
+blockquote p {
+  text-indent: 40px;
+  text-align: justify;
+}
+
+#boton {
+  color: white;
+  background: #28ba35;
+}
+#boton:hover{
+  color: white;
+  background: #047050;
+}
+#enlaces{
+  color: #04b8e5;
+}
+#enlaces:hover{
+  color: #139b73;
+}
+.marco-map{
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid #016675;
+  padding: 8px;
+  margin-top: 10px;
+  float: left;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 0px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .titulo-head {
+    width: 350px; 
+    padding: 10px;
+    padding-top: 15px;
+  }
+  .blockquote {
+  padding-right: 100px;
+  float: right;
+}
+blockquote {
+  border-left: none;
+  width: 500px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-right: 20px;
+  background-color: #E5E5E5;
+}
+cite {
+  font-size: 14;
+}
+  .bg-image-1 {
+    background: url("../images/bg-image-1.jpg") 20% 0px no-repeat;
+  }
+  .bg-image-2 {
+    background: url("../images/bg-image-2.jpg") 20% 0px no-repeat;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial .media-left {
+    width: 20px;
+  }
+  .telefono-mobil{
+    display: block;
+    font-size: 14pt;
+  }
+  .img-cabecera{
+    display: none;
+  }
+  .img-cabecera-mobil{
+    display: block;
+  }
+  .appWhatsapp{
+  display: block;
+  position: fixed;
+  right: 26px;
+  bottom: 100px;
+  width: 50px;
+ z-index: 1000;
+}
+.face-chat{
+  display: none;
+}
+  blockquote {
+    font-size: 12;
+    padding: 0px;
+    width: 300px;
+    background-color: #E5E5E5;
+  }
+  .imagen {
+  filter: opacity(.5);
+}
+section .featurette {
+  padding-left: 30px; 
+  padding-right: 30px;
+}
+  cite {
+  font-size: 11;
+}
+  .citas {
+    position: relative; 
+    left: 0px;
+  }
+  .section {
+    background-color: #ffffff;
+    padding: 80px 0;
+    padding-left: 0px;
+  }
+  .bg-image-1 {
+    background: url("../images/bg-image-1.jpg") 5% 0px no-repeat;
+  }
+  .bg-image-2 {
+    background: url("../images/bg-image-2.jpg") 5% 0px no-repeat;
+  }
+  .titulo-head {
+    font-size: 14px;
+    width: 250px; 
+    padding: 5px;
+    padding-top: 30px
+  }
+  .blockquote {
+  padding-right: 10px;
+  float: right;
+}
+.centrar-img-2 {
+  margin-left: 20%;
+}
+.portfolio-modal .modal-dialog {
+  background-color: white;
+  width: 400px;
+  padding: 5px;
+}
+.portfolio-modal .modal-dialog img {
+  margin: 10px;
+  width:  90%;
+}
+
+}
+
+
