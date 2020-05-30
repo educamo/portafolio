@@ -1,3 +1,10 @@
+<?php 
+session_start();
+if(empty($_SESSION['login_user']))
+{
+header('Location: login.php');
+}
+ ?>
     <!DOCTYPE html>
     <html>
     <head>
@@ -13,6 +20,7 @@
     				<div class="card">
     					<div class="card-header">
     						<h1>Cotizaciones por Clientes</h1>
+                            <div><a href="procesos/logout.php">Logout</a></div>
     					</div>
     					<div class="card-body">
     						<div id="tabladatatable" style="width: 90%"></div>

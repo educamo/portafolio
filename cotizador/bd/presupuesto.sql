@@ -11,7 +11,7 @@
  Target Server Version : 100138
  File Encoding         : 65001
 
- Date: 22/04/2020 17:06:51
+ Date: 30/05/2020 15:08:01
 */
 
 SET NAMES utf8mb4;
@@ -239,37 +239,16 @@ CREATE TABLE `tmp_cotizacion`  (
   `precio_tmp` double(8, 2) NULL DEFAULT NULL,
   `session_id` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id_tmp`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 135 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
+) ENGINE = MyISAM AUTO_INCREMENT = 136 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of tmp_cotizacion
 -- ----------------------------
 INSERT INTO `tmp_cotizacion` VALUES (55, 4, 1, 40.00, 'se7uf7ajc6unfc7npv6rgpum21');
+INSERT INTO `tmp_cotizacion` VALUES (135, 1, 1, 50.00, 'iqgkre4vjhu8ituccopcbeqap4');
 INSERT INTO `tmp_cotizacion` VALUES (133, 1, 1, 50.00, 'kbus40nag00vpq555ocnvi80t0');
 INSERT INTO `tmp_cotizacion` VALUES (134, 1, 1, 50.00, 'kbus40nag00vpq555ocnvi80t0');
 INSERT INTO `tmp_cotizacion` VALUES (129, 1, 2, 50.00, '46d4kirap5kr7jhs58q4n5r4u3');
-
--- ----------------------------
--- Table structure for user_demo
--- ----------------------------
-DROP TABLE IF EXISTS `user_demo`;
-CREATE TABLE `user_demo`  (
-  `user_id` int(11) NOT NULL AUTO_INCREMENT,
-  `firstname` varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
-  `lastname` varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
-  `user` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `pass` varchar(8) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `email` varchar(96) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '',
-  `code` varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
-  `status` tinyint(1) NOT NULL,
-  `date_added` datetime(0) NOT NULL,
-  PRIMARY KEY (`user_id`) USING BTREE
-) ENGINE = MyISAM AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of user_demo
--- ----------------------------
-INSERT INTO `user_demo` VALUES (1, 'Obed', 'Alvarado', '', '', 'joaquinobed@gmail.com', '2555', 1, '2014-04-11 00:00:00');
 
 -- ----------------------------
 -- Table structure for users
@@ -279,18 +258,21 @@ CREATE TABLE `users`  (
   `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `email` varchar(60) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `user_name` varchar(60) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `password` varchar(60) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `social_id` varchar(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
-  `picture` varchar(250) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `picture` longblob NOT NULL,
+  `admin` varchar(1) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT '0',
   `created` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP(0),
-  PRIMARY KEY (`user_id`) USING BTREE,
+  `activo` varchar(1) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT '0',
+  PRIMARY KEY (`user_id`, `created`) USING BTREE,
   INDEX `email`(`email`) USING BTREE,
   INDEX `login`(`password`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, 'cesar', 'educamo@gmail.com', '5031ec9436c0a63c038c440be72847ed', '', '', '2020-04-03 21:50:44');
+INSERT INTO `users` VALUES (1, 'cesar', 'educamo@gmail.com', 'educamo', '81dc9bdb52d04dc20036dbd8313ed055', '', '', '1', '2020-04-03 21:50:44', '1');
 
 SET FOREIGN_KEY_CHECKS = 1;
