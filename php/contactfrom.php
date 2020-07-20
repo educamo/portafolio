@@ -114,7 +114,7 @@ $e_subject = 'Usted ha sido contactado por ' . $name . '.';
 
 
 
-$e_body = "Usted ha sido contactado por $name. Su mensaje adicional es el siguiente." . PHP_EOL . PHP_EOL;
+$e_body = "Usted ha sido contactado por $name." . PHP_EOL . "Su mensaje es el siguiente." . PHP_EOL . PHP_EOL;
 
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
 
@@ -150,7 +150,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<div id='success_page'>";
 
-	echo "<h3 class='succes_message'>Email Sent Successfully.</h3>";
+	echo "<h3 class='succes_message'>Email enviado correctamente.</h3>";
 
 	echo "<p>Gracias <strong>$name</strong>, su mensaje ha sido enviado a nosotros.</p>";
 
