@@ -22,6 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
+li.resumen a {
+  text-decoration: none;
+  color: #0F51A2;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -345,6 +351,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  background-color: #344D5C;
 }
 
 .facts .count-box {
@@ -354,9 +361,10 @@ section {
 
 .facts .count-box i {
   display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
+  font-size: 56px;
+  color: #B7E5F4;
+  text-align: center;
+  padding: 10px 0px;
 }
 
 .facts .count-box span {
@@ -365,15 +373,16 @@ section {
   display: block;
   font-weight: 700;
   color: #050d18;
-  margin-left: 60px;
+  margin-left: 10px;
+  text-align: center;
 }
 
 .facts .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #FDFDFE;
+  text-align: center;
 }
 
 .facts .count-box a {
@@ -389,6 +398,19 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+
+.Facts strong {
+  text-align: center;
+}
+
+ .vertical-line{
+      width: 1px;
+      background-color: silver;
+      height: 100%;
+      float: left;
+      border: 2px ridge silver ;
+      border-radius: 2px;
+    }
 
 /*--------------------------------------------------------------
 # Akills
@@ -423,6 +445,13 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
+}
+.skills-title {
+  text-align: center;
+  background: #9ED0E7;
+  color: #103B53;
+  text-shadow: #103B53;
+  font-weight: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -731,6 +760,9 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
+  .vertical-line{
+      display: none;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -953,6 +985,14 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .vertical-line{
+      display: none;
+    }
+}
+@media (max-width: 990px) {
+  .vertical-line{
+      display: none;
+    }
 }
 
 /*--------------------------------------------------------------

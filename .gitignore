@@ -1,3 +1,4 @@
+# archivos de conexion a la base de datos
 /cotizador/config/
 /cotizador/config/db.php
 db.php
