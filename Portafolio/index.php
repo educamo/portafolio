@@ -45,7 +45,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle img-responsive">
         <h1 class="text-light"><a href="index.php">C. Eduardo Carrasco</a></h1>
         <div class="wave">
           <div style="height: 25px; width: 100%; overflow: hidden; top: 0px; margin-bottom: 5px;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
@@ -81,7 +81,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>C. Eduardo Carrasco</h1>
-      <p>Freelancer <span class="typed" data-typed-items="Designer, Web Developer FullStack, Photographer "></span></p>
+      <p>Freelancer <span class="typed" data-typed-items="UX/UI Designer, Web Developer FullStack, Photographer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -98,10 +98,10 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img-Eduardo-Carrasco.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer | Photographer.</h3>
+            <h3>UX/UI Designer &amp; Web Developer | Photographer.</h3>
             <p class="font-italic">
               Desarrollador web Fullstack y de apps móviles, fotógrafo con conocimientos en cinematografía y producción audiovisual, además apasionado por el marketing digital y el diseño gráfico.
             </p>
@@ -219,7 +219,11 @@
           <h2>Habilidades</h2>
           <p>Trabajo en equipo, Atención al Público, Respetuoso, Responsable, Proactivo, Trabajo bajo
             presión, Disposición para adquirir nuevos conocimientos, Motivación al logro, Creatividad,
-            Fotógrafo, manejo de varios programas de edicion y diseño, Conocimientos en Ventas, Empleo de técnicas SEO, Nociones en Marketing Digital, Toma de decisiones, Solución de problemas y conflictos, Destreza Manual, Liderazgo y Administración, Gestión de Proyectos, utilizacion de varios lenguajes de programación, Gestión de Base de datos, uso de Metodologías ágiles de trabajo, Técnico en Redes (Cisco Technologies), Desarrollo apps moviles.</p>
+            Fotógrafo, manejo de varios programas de edicion y diseño, Conocimientos en Ventas, Empleo de técnicas SEO,
+            Nociones en Marketing Digital, Toma de decisiones, Solución de problemas y conflictos, Destreza Manual, Liderazgo y Administración,
+            Gestión de Proyectos, utilizacion de varios lenguajes de programación, Gestión de Base de datos, uso de Metodologías ágiles de trabajo,
+            Técnico en Redes (Cisco Technologies), Desarrollo apps moviles, conocimientos en desarrollo de experiencia del usuaurio UX,
+            Conocimientos en Cloud Computing.</p>
         </div>
 
         <div class="row skills-content">
@@ -458,9 +462,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Visual Studio Code <i class="val">70%</i></span>
+              <span class="skill">Visual Studio Code <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -486,9 +490,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Google Chrome <i class="val">70%</i></span>
+              <span class="skill">Google Chrome <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -535,9 +539,9 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Ingles <i class="val">55%</i></span>
+              <span class="skill">Ingles <i class="val">65%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -555,212 +559,228 @@
         <div class="section-title">
           <h2>Resumen</h2>
         </div>
+        <p>
+          <a class="btn btn-primary" href="#" role="button" aria-expanded="false">
+            Descargar Resumen
+          </a>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Mostrar Resumen
+          </button>
+        </p>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Resumen Curricular</h3>
-            <div class="resume-item pb-0">
-              <h4>César Eduardo Carrasco monsalva</h4>
-              <p><em>Diseñador y Desarrollador Web, fotógrafo con conocimientos en diseño gráfico, innovador y con más de 10 años de experiencia diseñando y desarrollando aplicaciones web y desktop, responsable y profesional.</em></p>
-              <ul>
-                <li>Urb. Los Mangos, Calle 4, Edificio Hábitat Park, piso 8, apartamento 8-B,
-                  Valencia Estado Carabobo
-                </li>
-                <li class="resumen"><a href="tel:+584120566617">(+58) 412 0566617</a></li>
-                <li class="resumen"><a href="mailto:educamo@gmail.com">educamo@gmail.com</a></li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Educación</h3>
-            <div class="resume-item">
-              <h4>Analista de Sistema</h4>
-              <h5>2001 - 2005</h5>
-              <p><em>Instituto Universitario de Tecnología Juan Pablo Pérez Alfonzo (IUTEPAL) - Valencia</em></p>
-              <p>Egresado como Analista de Sitema, con conocimientos en procesos informáticos, auditoria de sistemas, arquitectura del computador y Analisis de datos</p>
-            </div>
-            <div class="resume-item">
-              <h4>Analista Programador</h4>
-              <h5>2001 - 2002</h5>
-              <p><em>Universidad de Carabobo - Valencia</em></p>
-              <p>Egresado como Analista programador de sistemas, con conocimientos en distintos lenguajes de programación como Visual Basic, Cobol, C++, Java, ASP.net entre otros, manejo y gestión de Base de Datos, Analisis y Diseño de sistemas de información, Introducción al diseño web (html) y gestion de servidores.</p>
-            </div>
-            <div class="resume-item">
-              <h4>PHP Avanzado</h4>
-              <h5>2004 - 2004</h5>
-              <p><em>CEINMECA (Centro Integral de Mejoramiento y Capacitación) - Valencia</em></p>
-              <p> Curso: PHP Avanzado: Duración: 32 horas.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Diseño y Maquetado Web</h4>
-              <h5>2004 - 2004</h5>
-              <p><em>CEINMECA (Centro Integral de Mejoramiento y Capacitación) - Valencia</em></p>
-              <p> Curso: Diseño Web: Duración: 32 horas.</p>
-            </div>
-            <div class="resume-item">
-              <h4>T.S.U. de Educación Integral</h4>
-              <h5>2011 - 2013</h5>
-              <p><em>Instituto Universitario Pedagógico Monseñor Rafael Aria Blanco - Valencia</em></p>
-              <p>Egresado como profesor mención Educación Integral.</p>
-            </div>
-
-            <h3 class="resume-title">Certificaciones</h3>
-            <div class="resume-item">
-              <h4>CISCO Certified Networking Associate (CCNA)</h4>
-              <h5>2006</h5>
-              <p><em>Universidad de Carabobo, Facultad de Ingeniería, Instituto de Matemática y Cálculo Aplicado, Academia Local CISCO</em></p>
-              <p>Programa CISCO duración: 140 horas.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Taller: Aprendizaje Acelerado</h4>
-              <h5>2011</h5>
-              <p><em>Instituto Universitario Pedagógico Monseñor Rafael Arias Blanco - Valencia</em></p>
-              <p>“Herramienta para Desarrollar Procesos Cognoscitivos”. Duración 8 horas.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Diplomado: Fotografía</h4>
-              <h5>2014</h5>
-              <p><em>Enfocarte (Escuela Superior de Fotografía).</em></p>
-              <p>Uso de la Camara, Composición, revelado digital y Edición, Iluminación y portafolio.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Diplomado: Cinematografia</h4>
-              <h5>2019</h5>
-              <p><em>arte y efectos production.</em></p>
-              <p>Cinematografía y producción de cine y vídeo.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Curso: Programación app Moviles</h4>
-              <h5>2020</h5>
-              <p><em>edX US.</em></p>
-              <p>Desarrollo de aplicaciones web.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Scrum Foundations Professional Certificate</h4>
-              <h5>2020</h5>
-              <p><em>CertiProf.</em></p>
-              <p>Metodologías de Proyectos Ágiles.</p>
-            </div>
-            <div class="resume-item">
-              <h4>Desarrollo de Apps Moviles</h4>
-              <h5>2020</h5>
-              <p><em>Google Actívate.</em></p>
-              <p>Android Studio.</p>
-            </div>
-
-            <h3 class="resume-title">Reconocimientos</h3>
-            <div class="resume-item">
-              <h4> Colaborador de la Asociación de Escritores Carabobeños (AECA)</h4>
-              <h5>2015</h5>
-
-              <h3 class="resume-title">Trabajo Autonomo</h3>
-              <div class="resume-item">
-                <h4>Fotógrafo</h4>
-                <h5>2013</h5>
-                <p><em>Eduardo Carrasco Fotografía</em></p>
-                <p>Profesional Independiente.</p>
-              </div>
-              <div class="resume-item">
-                <h4>CEO & Cofundador</h4>
-                <h5>2017</h5>
-                <p><em>DanteWeb Corp, C.A.</em></p>
-                <p>producción audiovisual &amp; diseño.</p>
+        <div class="collapse" id="collapseExample">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Resumen Curricular</h3>
+              <div class="resume-item pb-0">
+                <h4>César Eduardo Carrasco monsalva</h4>
+                <p><em>Diseñador y Desarrollador Web, fotógrafo con conocimientos en diseño gráfico, innovador y con más de 10 años de experiencia diseñando y desarrollando aplicaciones web y desktop, responsable y profesional.</em></p>
+                <ul>
+                  <li>Urb. Los Mangos, Calle 4, Edificio Hábitat Park, piso 8, apartamento 8-B,
+                    Valencia Estado Carabobo
+                  </li>
+                  <li class="resumen"><a href="tel:+584120566617">(+58) 412 0566617</a></li>
+                  <li class="resumen"><a href="mailto:educamo@gmail.com">educamo@gmail.com</a></li>
+                </ul>
               </div>
 
+              <h3 class="resume-title">Educación</h3>
+              <div class="resume-item">
+                <h4>Analista de Sistema</h4>
+                <h5>2001 - 2005</h5>
+                <p><em>Instituto Universitario de Tecnología Juan Pablo Pérez Alfonzo (IUTEPAL) - Valencia</em></p>
+                <p>Egresado como Analista de Sitema, con conocimientos en procesos informáticos, auditoria de sistemas, arquitectura del computador y Analisis de datos</p>
+              </div>
+              <div class="resume-item">
+                <h4>Analista Programador</h4>
+                <h5>2001 - 2002</h5>
+                <p><em>Universidad de Carabobo - Valencia</em></p>
+                <p>Egresado como Analista programador de sistemas, con conocimientos en distintos lenguajes de programación como Visual Basic, Cobol, C++, Java, ASP.net entre otros, manejo y gestión de Base de Datos, Analisis y Diseño de sistemas de información, Introducción al diseño web (html) y gestion de servidores.</p>
+              </div>
+              <div class="resume-item">
+                <h4>PHP Avanzado</h4>
+                <h5>2004 - 2004</h5>
+                <p><em>CEINMECA (Centro Integral de Mejoramiento y Capacitación) - Valencia</em></p>
+                <p> Curso: PHP Avanzado: Duración: 32 horas.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Diseño y Maquetado Web</h4>
+                <h5>2004 - 2004</h5>
+                <p><em>CEINMECA (Centro Integral de Mejoramiento y Capacitación) - Valencia</em></p>
+                <p> Curso: Diseño Web: Duración: 32 horas.</p>
+              </div>
+              <div class="resume-item">
+                <h4>T.S.U. de Educación Integral</h4>
+                <h5>2011 - 2013</h5>
+                <p><em>Instituto Universitario Pedagógico Monseñor Rafael Aria Blanco - Valencia</em></p>
+                <p>Egresado como profesor mención Educación Integral.</p>
+              </div>
 
+              <h3 class="resume-title">Certificaciones</h3>
+              <div class="resume-item">
+                <h4>CISCO Certified Networking Associate (CCNA)</h4>
+                <h5>2006</h5>
+                <p><em>Universidad de Carabobo, Facultad de Ingeniería, Instituto de Matemática y Cálculo Aplicado, Academia Local CISCO</em></p>
+                <p>Programa CISCO duración: 140 horas.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Taller: Aprendizaje Acelerado</h4>
+                <h5>2011</h5>
+                <p><em>Instituto Universitario Pedagógico Monseñor Rafael Arias Blanco - Valencia</em></p>
+                <p>“Herramienta para Desarrollar Procesos Cognoscitivos”. Duración 8 horas.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Diplomado: Fotografía</h4>
+                <h5>2014</h5>
+                <p><em>Enfocarte (Escuela Superior de Fotografía).</em></p>
+                <p>Uso de la Camara, Composición, revelado digital y Edición, Iluminación y portafolio.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Diplomado: Cinematografia</h4>
+                <h5>2019</h5>
+                <p><em>arte y efectos production.</em></p>
+                <p>Cinematografía y producción de cine y vídeo.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Curso: Programación app Moviles</h4>
+                <h5>2020</h5>
+                <p><em>edX US.</em></p>
+                <p>Desarrollo de aplicaciones web.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Scrum Foundations Professional Certificate</h4>
+                <h5>2020</h5>
+                <p><em>CertiProf.</em></p>
+                <p>Metodologías de Proyectos Ágiles.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Desarrollo de Apps Moviles</h4>
+                <h5>2020</h5>
+                <p><em>Google Actívate.</em></p>
+                <p>Android Studio.</p>
+              </div>
+              <div class="resume-item">
+                <h4>Cloud Computing</h4>
+                <h5>2020</h5>
+                <p><em>Google Actívate.</em></p>
+                <p>Servicios en la nube.</p>
+              </div>
+
+              <h3 class="resume-title">Reconocimientos</h3>
+              <div class="resume-item">
+                <h4> Colaborador de la Asociación de Escritores Carabobeños (AECA)</h4>
+                <h5>2015</h5>
+
+                <h3 class="resume-title">Trabajo Autonomo</h3>
+                <div class="resume-item">
+                  <h4>Fotógrafo</h4>
+                  <h5>2013</h5>
+                  <p><em>Eduardo Carrasco Fotografía</em></p>
+                  <p>Profesional Independiente.</p>
+                </div>
+                <div class="resume-item">
+                  <h4>CEO & Cofundador</h4>
+                  <h5>2017</h5>
+                  <p><em>DanteWeb Corp, C.A.</em></p>
+                  <p>producción audiovisual &amp; diseño.</p>
+                </div>
+
+
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Experiencia Profesional</h3>
-            <div class="resume-item">
-              <h4>Analista Semi Senior soporte técnico para TI</h4>
-              <h5>2020 - 2020</h5>
-              <p><em>Skyflot, C.A,</em></p>
-              <ul>
-                <li>Realizar analisis y corrección de los errores en los sistemas de producción, reportados mediante el sistema de soporte y gestión de tickets freshdesk</li>
-                <li>Prestar apoyo a los clientes de la empresa y realizar correciones a los problemas reportados.</li>
-                <li>realizar seguimientos de casos reportados por los clientes y/o el departamento de servicios al cliente.</li>
-                <li>Web Development y analista de soporte tecnico en los servicios de Skyflot.</i>
-                <li>Realizar mantenimiento preventivo de los sistemas de la empresa.</li>
-                <li>Realizar pruebas de los sistemas, para garantizar la estabilidad y buen funcionamiento de los mismos en producción.</li>
-                <li>Prestar apoyo a los integrantes del departamento de desarrollo en lo necesario para garantizar las actividades dentro de la empresa.</li>
-                <li>Realizar mantenimiento correctivo de los sistemas. para el buen funcionamiento de los mismos en producción.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Analista Semi Senior soporte técnico</h4>
-              <h5>2020 - 2020</h5>
-              <p><em>Skyflot, C.A,</em></p>
-              <ul>
-                <li>Web Development y analista de soporte tecnico en los servicios de Skyflot.</i>
-                <li>Realizar mantenimiento preventivo de los sistemas de la empresa.</li>
-                <li>Realizar pruebas de los sistemas, para garantizar la estabilidad y buen funcionamiento de los mismos en producción.</li>
-                <li>Elaborar manuales de procesos del departamento de soporte técnico para la empresa.</li>
-                <li>Liderizar el equipo de soporte técnico conformado por 4 personas.</li>
-                <li>Prestar apoyo a los integrantes del departamento de desarrollo en lo necesario para garantizar las actividades dentro de la empresa.</li>
-                <li>Realizar mantenimiento correctivo de los sistemas. para el buen funcionamiento de los mismos en producción.</li>
-                <li>elaborar informes de gestion del departamento de soporte técnico, semanales y mensuales.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Semi Senior Web Application Developer full stack</h4>
-              <h5>2019 - 2020</h5>
-              <p><em>Skyflot, C.A,</em></p>
-              <ul>
-                <li>Desarrollar modulos y mejoras a los Sistema Administrativo y Operacionales para Aeropuertos, propiedad de la empresa.</i>
-                <li>Liderizar equipo de Desarrollo en cuanto a mejoras del sistema administrativo Aeroportuario "Adminflot".</li>
-                <li>Realizar pruebas de procesos dentro de los sistemas de la empresa.</li>
-                <li>Elaborar manuales de procesos para la empresa.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Profesor especialista de Informática</h4>
-              <h5>2014 - 2019</h5>
-              <p><em>Secretaria de Educación Edo. Carabobo</em></p>
-              <ul>
-                <li>profesor interino de informática de primaria en la U.E. Antonio Guzmán Blanco</i>
-                <li>Encargado de las instalaciones de Informática en la Institución</li>
-                <li>Encargado de la Carga de datos en el sistema de Gestion escolar.</li>
-                <li>Realizar mantenimiento e instalaciones de redes y servicio técnico de equipos de computación de la institucion.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Gerente General</h4>
-              <h5>2007 - 2013</h5>
-              <p><em>NIPCES, C.A, Valencia, Carabobo</em></p>
-              <ul>
-                <li>Gestión de Proyectos realizados por la Empresa.</li>
-                <li>Liderazgo y Toma de decisiones, en cuanto al personal (un equipo de trabajo conformado por 7 personas).</li>
-                <li>Supervisar instalaciones de redes y servicio técnico de equipos de computación.</li>
-                <li>Suerpvisar el funcionamiento de las operaciones de la compañia.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Director del departamento de informatica</h4>
-              <h5>2004 - 2006</h5>
-              <p><em>Prosideco C.A, Valencia, Carabobo</em></p>
-              <ul>
-                <li>Líder de proyecto “desarrollo del sistema administrativo y de cobranza de la empresa”.</li>
-                <li>Planificación, Diseño e Implementación del Sistema automatizado de la compañía.</li>
-                <li>Supervisar al personal encargado de base de datos, desarrollo y testing (QA) del proyecto.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Analista Junior Departamento de Control de Evaluación</h4>
-              <h5>2003 - 2004</h5>
-              <p><em>Unidad Educativa Instituto San Pablo, Valencia, Carabobo</em></p>
-              <ul>
-                <li>Encargado de gestionar el Sistema de administración y gestión escolar.</li>
-                <li>Analizar los datos ingresados al sistema administrativo de gestión escolar. </li>
-                <li>Realizar respaldo de datos y mantenimiento al sistema.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Profesor de Informática </h4>
-              <h5>2003 - 2004</h5>
-              <p><em>Unidad Educativa Instituto San Pablo, Valencia, Carabobo</em></p>
-              <ul>
-                <li>Profesor de Informática en nivel de educación básica y diversificada.</li>
-              </ul>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Experiencia Profesional</h3>
+              <div class="resume-item">
+                <h4>Analista Semi Senior soporte técnico para TI</h4>
+                <h5>2020 - 2020</h5>
+                <p><em>Skyflot, C.A,</em></p>
+                <ul>
+                  <li>Realizar analisis y corrección de los errores en los sistemas de producción, reportados mediante el sistema de soporte y gestión de tickets freshdesk</li>
+                  <li>Prestar apoyo a los clientes de la empresa y realizar correciones a los problemas reportados.</li>
+                  <li>realizar seguimientos de casos reportados por los clientes y/o el departamento de servicios al cliente.</li>
+                  <li>Web Development y analista de soporte tecnico en los servicios de Skyflot.</i>
+                  <li>Realizar mantenimiento preventivo de los sistemas de la empresa.</li>
+                  <li>Realizar pruebas de los sistemas, para garantizar la estabilidad y buen funcionamiento de los mismos en producción.</li>
+                  <li>Prestar apoyo a los integrantes del departamento de desarrollo en lo necesario para garantizar las actividades dentro de la empresa.</li>
+                  <li>Realizar mantenimiento correctivo de los sistemas. para el buen funcionamiento de los mismos en producción.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Analista Semi Senior soporte técnico</h4>
+                <h5>2020 - 2020</h5>
+                <p><em>Skyflot, C.A,</em></p>
+                <ul>
+                  <li>Web Development y analista de soporte tecnico en los servicios de Skyflot.</i>
+                  <li>Realizar mantenimiento preventivo de los sistemas de la empresa.</li>
+                  <li>Realizar pruebas de los sistemas, para garantizar la estabilidad y buen funcionamiento de los mismos en producción.</li>
+                  <li>Elaborar manuales de procesos del departamento de soporte técnico para la empresa.</li>
+                  <li>Liderizar el equipo de soporte técnico conformado por 4 personas.</li>
+                  <li>Prestar apoyo a los integrantes del departamento de desarrollo en lo necesario para garantizar las actividades dentro de la empresa.</li>
+                  <li>Realizar mantenimiento correctivo de los sistemas. para el buen funcionamiento de los mismos en producción.</li>
+                  <li>elaborar informes de gestion del departamento de soporte técnico, semanales y mensuales.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Semi Senior Web Application Developer full stack</h4>
+                <h5>2019 - 2020</h5>
+                <p><em>Skyflot, C.A,</em></p>
+                <ul>
+                  <li>Desarrollar modulos y mejoras a los Sistema Administrativo y Operacionales para Aeropuertos, propiedad de la empresa.</i>
+                  <li>Liderizar equipo de Desarrollo en cuanto a mejoras del sistema administrativo Aeroportuario "Adminflot".</li>
+                  <li>Realizar pruebas de procesos dentro de los sistemas de la empresa.</li>
+                  <li>Elaborar manuales de procesos para la empresa.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Profesor especialista de Informática</h4>
+                <h5>2014 - 2019</h5>
+                <p><em>Secretaria de Educación Edo. Carabobo</em></p>
+                <ul>
+                  <li>profesor interino de informática de primaria en la U.E. Antonio Guzmán Blanco</i>
+                  <li>Encargado de las instalaciones de Informática en la Institución</li>
+                  <li>Encargado de la Carga de datos en el sistema de Gestion escolar.</li>
+                  <li>Realizar mantenimiento e instalaciones de redes y servicio técnico de equipos de computación de la institucion.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Gerente General</h4>
+                <h5>2007 - 2013</h5>
+                <p><em>NIPCES, C.A, Valencia, Carabobo</em></p>
+                <ul>
+                  <li>Gestión de Proyectos realizados por la Empresa.</li>
+                  <li>Liderazgo y Toma de decisiones, en cuanto al personal (un equipo de trabajo conformado por 7 personas).</li>
+                  <li>Supervisar instalaciones de redes y servicio técnico de equipos de computación.</li>
+                  <li>Suerpvisar el funcionamiento de las operaciones de la compañia.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Director del departamento de informatica</h4>
+                <h5>2004 - 2006</h5>
+                <p><em>Prosideco C.A, Valencia, Carabobo</em></p>
+                <ul>
+                  <li>Líder de proyecto “desarrollo del sistema administrativo y de cobranza de la empresa”.</li>
+                  <li>Planificación, Diseño e Implementación del Sistema automatizado de la compañía.</li>
+                  <li>Supervisar al personal encargado de base de datos, desarrollo y testing (QA) del proyecto.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Analista Junior Departamento de Control de Evaluación</h4>
+                <h5>2003 - 2004</h5>
+                <p><em>Unidad Educativa Instituto San Pablo, Valencia, Carabobo</em></p>
+                <ul>
+                  <li>Encargado de gestionar el Sistema de administración y gestión escolar.</li>
+                  <li>Analizar los datos ingresados al sistema administrativo de gestión escolar. </li>
+                  <li>Realizar respaldo de datos y mantenimiento al sistema.</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Profesor de Informática </h4>
+                <h5>2003 - 2004</h5>
+                <p><em>Unidad Educativa Instituto San Pablo, Valencia, Carabobo</em></p>
+                <ul>
+                  <li>Profesor de Informática en nivel de educación básica y diversificada.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -812,10 +832,10 @@
 
           <div class="col-lg-3 col-md-4 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/skyflot_systems.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/skyflot_systems.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -860,39 +880,38 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Servicios</h2>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-computer"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <h4 class="title">Lorem Ipsum</h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <h4 class="title">Dolor Sitem></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <h4 class="title">Sed ut persatis</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-image"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <h4 class="title">Magni Dolora></h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-settings"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <h4 class="title">Nemo Enim</h4>
             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-tasks-alt"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <h4 class="title">Eiusmod Tem/a></h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
         </div>
@@ -901,7 +920,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <section id="testimonials" class="testimonials section-bg" hidden="true">
       <div class="container">
 
         <div class="section-title">
@@ -976,7 +995,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Contacto</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -986,20 +1005,20 @@
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Direccion:</h4>
+                <p>Urb. Los mangos calle 119, Res. Habitat Park, piso 8 apartamento 8-B, Valencia - Venezuela 2001</p>
               </div>
 
               <div class="email">
                 <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4>Correo:</h4>
+                <p>educamo@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Llamar a:</h4>
+                <p>+58 412 056 6617</p>
               </div>
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
@@ -1011,12 +1030,12 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">Tu nombre</label>
                   <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="name">tu Correo</label>
                   <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validate"></div>
                 </div>
@@ -1027,7 +1046,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
+                <label for="name">Mensaje</label>
                 <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                 <div class="validate"></div>
               </div>
@@ -1036,7 +1055,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
             </form>
           </div>
 
@@ -1051,14 +1070,14 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        &copy; Copyright <strong><span><?php echo date("Y"); ?></span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Eduardo Carrasco</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
