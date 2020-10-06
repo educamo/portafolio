@@ -57,7 +57,7 @@
           <a href="https://www.facebook.com/eduardo.carrasco.fotografo" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/educamo" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://skype.com/educamo" class="skype"><i class="bx bxl-skype"></i></a>
-          <a href="https://www.linkedin.com/in/césar-eduardo-carrasco-m-ba936868" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/educamo" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -850,7 +850,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 portfolio-item filter-app">
+          <div class="col-lg-3 col-md-4 portfolio-item filter-app" hidden="true">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -886,33 +886,43 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box">
             <div class="icon"><i class="icofont-computer"></i></div>
-            <h4 class="title">Lorem Ipsum</h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title">Diseño UX/UI</h4>
+            <p class="description">Diseño la experiencia que tiene cualquier usuario al interactuar con la interfaz y
+              usabilidad de tu aplicación o sitio web, de igual forma realizo maquetación y diseño la interfaz de
+              usuario de tu aplicación o plataforma digital..</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-            <h4 class="title">Dolor Sitem></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div class="icon"><i class="icofont-code"></i></div>
+            <h4 class="title">Desarrollo Front-End</h4>
+            <p class="description">El Front End es la parte de un sitio web que interactúa con los usuarios, como
+              desarrollador front end plasmo el código para la interfaz visual de una página o aplicación, manejando
+              distintos lenguajes de programación.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-earth"></i></div>
-            <h4 class="title">Sed ut persatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div class="icon"><i class="icofont-server"></i></div>
+            <h4 class="title">Desarrollo Back-End</a></h4>
+            <p class="description">El Backend se conecta con la base de datos y el servidor que utiliza un sitio
+              o aplicación web, como desarrollador front end origino el código que gestiona las diferentes peticiones
+              llegan al servidor y gestiona las bases de datos.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-image"></i></div>
-            <h4 class="title">Magni Dolora></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <div class="icon"><i class="icofont-smart-phone"></i></div>
+            <h4 class="title">Desarrollo App móviles</h4>
+            <p class="description">El desarrollo de aplicaciones móviles es el conjunto de procesos y procedimientos
+              involucrados en la escritura de software para dispositivos inalámbricos de cómputo, como teléfonos
+              inteligentes o tabletas.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-settings"></i></div>
-            <h4 class="title">Nemo Enim</h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <div class="icon"><i class="icofont-responsive"></i></div>
+            <h4 class="title">Diseño Web Responsivo</h4>
+            <p class="description">Como diseñador responsivo hare que tus aplicaciones web se puedan ejecutar en dispositivos
+              inteligentes y se puedan observar de una forma correcta, utilizando las últimas tendencias de diseño.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="icofont-tasks-alt"></i></div>
-            <h4 class="title">Eiusmod Tem/a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <div class="icon"><i class="icofont-live-support"></i></div>
+            <h4 class="title">Asesoramiento y soporte TI</h4>
+            <p class="description">Te brindo el mejor asesoramiento en cuanto a las tecnologías que debes utilizar para tus
+              requerimientos y además te ofrezco soporte técnico durante los 365 días del año a las aplicaciones que desarrollo.</p>
           </div>
         </div>
 
@@ -996,10 +1006,10 @@
 
         <div class="section-title">
           <h2>Contacto</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Sígueme en mis redes sociales o escríbeme para saber más, con gusto te respondere.</p>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row">
 
           <div class="col-lg-5 d-flex align-items-stretch">
             <div class="info">
@@ -1021,7 +1031,7 @@
                 <p>+58 412 056 6617</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.7779464101936!2d-68.0260814852043!3d10.198679792715115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecfe64c47cfb1ec!2sEduardo%20Carrasco%20Fotografia!5e0!3m2!1ses!2sve!4v1601601970421!5m2!1ses!2sve" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -1041,7 +1051,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
+                <label for="name">Asunto</label>
                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
@@ -1051,9 +1061,9 @@
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Cargando</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
               </div>
               <div class="text-center"><button type="submit">Enviar mensaje</button></div>
             </form>
@@ -1077,7 +1087,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">Eduardo Carrasco</a>
+        Designed by <a href="http://eduardocarrasco.photography">Eduardo Carrasco</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
