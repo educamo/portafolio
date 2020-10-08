@@ -1,3 +1,133 @@
+<?php
+
+$id = $_GET['id'];
+
+
+switch ($id) {
+  case '1':
+    $categoria = "Web";
+    $titulo    = "Web Asocivilcesarl.com";
+    $cliente   = "Asociacion Civil Dr. Cesar Luis Carrasco";
+    $img       = "assets/img/aplicacion-web-app-movil-desarrollador-fullstack.jpg";
+    $fecha     = "May - 2019";
+    $url       = "www.asocivilcesarl.com";
+    $link      = "http://" . $url;
+    $tecnologias = array(
+      '0' => 'HTML5',
+      '1' => 'PHP',
+      '2' => 'CSS',
+      '3' => 'Jquery',
+      '4' => 'AJAX',
+      '5' => 'Bootstrap',
+      '6' => 'GIT',
+      '7' => 'CMS',
+    );
+    $detalle   = "La ASOCIACIÓN CIVIL DR. CÉSAR LUIS CARRASCO MONSALVA. Fundada en el año 2003, por la 
+    iniciativa de un equipo multidisciplinario de profesionales, con la finalidad de Capacitar y 
+    Formar a nivel Nacional e Internacional, especialistas en diferentes áreas del conocimiento, 
+    capaces de impactar positivamente en el desarrollo económico, social, jurídico, educativo, asistencial, 
+    laboral tecnológico y otras disciplinas de vital importancia para el progreso de las naciones.";
+    break;
+  case '2':
+    $categoria = "Web";
+    $titulo    = "Web Eduardo Carrasco";
+    $cliente   = "Eduardo Carrasco";
+    $img       = "assets/img/eduardo-carrasco-fotografia-fotografo-web-desarrollo.jpg";
+    $fecha     = "Ene - 2020";
+    $url       = "eduardocarrasco.photography";
+    $link      = "http://" . $url;
+    $tecnologias = array(
+      '0' => 'HTML5',
+      '1' => 'PHP',
+      '2' => 'CSS',
+      '3' => 'Jquery',
+      '4' => 'AJAX',
+      '5' => 'Bootstrap',
+      '6' => 'GIT',
+      '7' => 'CMS',
+
+    );
+    $detalle   = "Mi Sitio web como fotógrafo profesional, donde informo sobre mis trabajos, los servicios
+      que ofrezco, además de publicar fotos de las sesiones realizadas a los distintos clientes. 
+      Cuenta con una sección de noticias   y una aplicación para solicitar cotizaciones online.";
+    break;
+  case '3':
+    $categoria = "App Web";
+    $titulo    = "Skyflot";
+    $cliente   = "Skyflot, C.A.";
+    $img       = "assets/img/app-web-programador-ux-ui.jpg";
+    $fecha     = "Feb - 2019";
+    $url       = "skyflot";
+    $link      = "https://www.skyflot.com";
+    $tecnologias = array(
+      '0' => 'PHP',
+      '1' => 'HTML5',
+      '2' => 'Jquery',
+      '3' => 'AJAX',
+      '4' => 'Bootstrap',
+      '5' => 'GIT',
+      '6' => 'CodeIgniter',
+      '7' => 'Mysql',
+      '8' => 'API',
+    );
+    $detalle   = "SKYFLOT es una marca líder en el mercado aeroportuario, que ofrece soluciones tecnológicas
+      a los procesos operativos y administrativos, atendiendo las necesidades de nuestros clientes de manera eficiente.
+      Se ha posicionado en el mercado por ser una extraordinaria herramienta que genera mayor rentabilidad, control y 
+      seguimiento efectivo del sector aeroportuario.
+      Actualmente se reconoce por su variedad de productos y servicios, tales como: SKYFLOT AVIACIÓN GENERAL, SKYFLOT
+      AVIACIÓN COMERCIAL, SKYFLOT COMERCIALIZACIÓN, SKYFLOT RECAUDACIÓN, entre otros.";
+    break;
+  case '4':
+    $categoria = "Diseño UX/UI";
+    $titulo    = "UX Asocivilcesarl.com";
+    $cliente   = "Asociacion Civil Dr. Cesar Luis Carrasco";
+    $img       = "assets/img/ux-ui-pruebas-usuarios-experiencia-interfaz.jpg";
+    $fecha     = "Abr - 2019";
+    $url       = "www.asocivilcesarl.com";
+    $link      = "http://" . $url;
+    $tecnologias = array(
+      '0' => 'Adobe XD',
+      '1' => 'Figma',
+      '2' => 'CSS',
+      '3' => 'Jquery',
+      '4' => 'HTML5',
+      '5' => 'Bootstrap',
+      '6' => 'GIT',
+    );
+    $detalle   = "Realice el diseño de la experiencia de usuarios (UX) para la plataforma web de La
+       ASOCIACIÓN CIVIL DR. CÉSAR LUIS CARRASCO MONSALVA. Fundada en el año 2003, donde se hizo un análisis 
+       previo al proyecto, se planifico la usabilidad y se probó la eficacia de los usuarios al interactuar 
+       con la plataforma,  de igual forma se diseñó la interface de usuario, como también se realizaron pruebas
+        con grupos de usuarios para determinar que la experiencia fuera la mejor.";
+    break;
+  case '5':
+    $categoria = "Diseño Logo";
+    $titulo    = "Logo Desarrollo Visionario";
+    $cliente   = "Desarrollo Visionario, C.A.";
+    $img       = "assets/img/ux-ui-pruebas-usuarios-experiencia-interfaz.jpg";
+    $fecha     = "Abr - 2019";
+    $url       = "N/A";
+    $link      = " ";
+    $tecnologias = array(
+      '0' => 'Adobe Photoshop',
+      '1' => 'adobe Ilustrator',
+    );
+    $detalle   = "Elabore el Diseño del logo y preste asesoramiento en la imagen corporativa de la empresa 
+    Desarrollo Visionario, la cual es una multinacional asociada con una compañía encargada de realizar 
+    edificaciones prefabricadas con materiales de alta calidad y a bajos costos.";
+    break;
+  default:
+    echo "<script type='text/javascript'>";
+
+    echo "window.history.back(-1)";
+
+    echo "</script>";
+
+    break;
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +135,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Detalle de Portafolio - <?php echo $titulo; ?></title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -28,10 +158,9 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Template Name: portafolio 1.1.0
+  * Template URL: https://eduardocarrasco.photography
+  * Author: C. Eduardo Carrasco
   ======================================================== -->
 </head>
 
@@ -45,25 +174,25 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.php">Alex Smith</a></h1>
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle img-responsive">
+        <h1 class="text-light"><a href="index.php">C. Eduardo Carrasco</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.twitter.com/educamo" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/eduardo.carrasco.fotografo" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/educamo" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://skype.com/educamo" class="skype"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/educamo" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.php"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+          <li class="active"><a href="index.php"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li><a href="index.php#about"><i class="bx bx-user"></i> <span>Acerca de mi</span></a></li>
+          <li><a href="index.php#resume"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
+          <li><a href="index.php#portfolio"><i class="bx bx-book-content"></i> Portafolio</a></li>
+          <li><a href="index.php#services"><i class="bx bx-server"></i> Servicios</a></li>
+          <li><a href="index.php#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -79,10 +208,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfoio Details</h2>
+          <h2>Detalles de Portafolio</h2>
           <ol>
-            <li><a href="index.php">Home</a></li>
-            <li>Portfoio Details</li>
+            <li><a href="index.php">Inicio</a></li>
+            <li id="titulo"><?php echo $titulo; ?></li>
           </ol>
         </div>
 
@@ -95,28 +224,46 @@
 
         <div class="portfolio-details-container">
 
-          <div class="owl-carousel portfolio-details-carousel">
-            <img src="assets/img/portfolio-details-1.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-2.jpg" class="img-fluid" alt="">
-            <img src="assets/img/portfolio-details-3.jpg" class="img-fluid" alt="">
+          <div class="">
+            <img id="imagen" src="<?php echo $img; ?>" class="img-fluid" alt="">
           </div>
 
           <div class="portfolio-info">
-            <h3>Project information</h3>
+            <h3>Informacion del Proyecto</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Categoria</strong>: <?php echo $categoria; ?></li>
+              <li><strong>Cliente</strong>: <?php echo $cliente; ?></li>
+              <li><strong>Fecha del Proyecto</strong>: <?php echo $fecha; ?></li>
+              <li><strong>URL del Proyecto</strong>: <a href="<?php echo $link; ?>" <?php if ($link != " ") {
+                                                                                    ?> target="blank" <?php } ?>><?php echo $url; ?></a></li>
             </ul>
           </div>
 
         </div>
 
         <div class="portfolio-description">
-          <h2>This is an example of portfolio detail</h2>
+          <h2>Detalles del Proyecto</h2>
           <p>
-            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+            <div id="detalle" class="row">
+              <div class="col-md-6"><?php echo $detalle; ?></div>
+              <div class="col-md-6">
+                <h3>Tecnologias Utilizadas:</h3>
+                <ul>
+
+                  <div class="row">
+                    <?php foreach ($tecnologias as $t) {
+                    ?>
+                      <div class="col-md-6">
+                        <li><?php echo $t; ?></li>
+                      </div>
+
+                    <?php
+                    }
+                    ?>
+                  </div>
+                </ul>
+              </div>
+            </div>
           </p>
         </div>
 
@@ -129,14 +276,11 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        &copy; Copyright <strong><span><?php echo date("Y"); ?></span></strong>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+        Designed by <a href="http://eduardocarrasco.photography">Eduardo Carrasco</a>
       </div>
     </div>
   </footer><!-- End  Footer -->

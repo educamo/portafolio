@@ -28,10 +28,9 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: iPortfolio - v1.2.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Template Name: portafolio 1.1.0
+  * Template URL: https://eduardocarrasco.photography
+  * Author: C. Eduardo Carrasco
   ======================================================== -->
 </head>
 
@@ -47,11 +46,6 @@
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle img-responsive">
         <h1 class="text-light"><a href="index.php">C. Eduardo Carrasco</a></h1>
-        <div class="wave">
-          <div style="height: 25px; width: 100%; overflow: hidden; top: 0px; margin-bottom: 5px;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-              <path d="M-39.23,75.48 C201.74,239.30 358.07,-1.48 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path>
-            </svg></div>
-        </div>
         <div class="social-links mt-3 text-center">
           <a href="https://www.twitter.com/educamo" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/eduardo.carrasco.fotografo" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -815,7 +809,7 @@
               <img src="assets/img/portfolio/asocivilcesarl_responsive.jpg" class="img-fluid" alt="asocivilcesarl">
               <div class="portfolio-links">
                 <a href="http://www.asocivilcesarl.com" target="_blank" title="Web Asocivilcesarl.com"><i class="bx bx-link"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.php?id=1" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -825,17 +819,17 @@
               <img src="assets/img/portfolio/eduardocarrascophotography_responsive.jpg" class="img-fluid" alt="eduardocarrasco.photography">
               <div class="portfolio-links">
                 <a href="http://www.eduardocarrasco.photography/" target="_blank" title="Web eduardocarrasco.photography"><i class="bx bx-link"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.php?id=2" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/skyflot_systems.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/skyflot_systems.jpg" class="img-fluid" alt="Sistema de Gestion Aeropuertaria Skyflot">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/skyflot_systems.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-link"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
+                <a href="http://www.skyflot.com" target="_blank" title="App Web Skyflot"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php?id=3" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -845,7 +839,7 @@
               <img src="assets/img/portfolio/log_desarrollo_visioanrio.jpg" class="img-fluid" alt="Diseño Logo Desarrollo Visionario">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/log_desarrollo_visioanrio.jpg" data-gall="portfolioGallery" class="venobox" title="Logo Desarrollo Visionario"><i class="bx bx-link"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.php?id=5" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -855,17 +849,17 @@
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php?id=" title="Más Detalle"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/log_asocivil_cesarl.jpg" class="img-fluid" alt="Deseño Logo Asocivil Cesar Luis Carrasco Monsalva">
+              <img src="assets/img/portfolio/log_asocivil_cesarl.jpg" class="img-fluid" alt="Diseño UX/UI Asocivil Cesar Luis Carrasco Monsalva">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/log_asocivil_cesarl.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-link"></i></a>
-                <a href="portfolio-details.php" title="More Details"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/log_asocivil_cesarl.jpg" data-gall="portfolioGallery" class="venobox" title="UX/UI Asocivil Cesar Luis Carrasco Monsalva"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php?id=4" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
           </div>
@@ -1083,10 +1077,6 @@
         &copy; Copyright <strong><span><?php echo date("Y"); ?></span></strong>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
         Designed by <a href="http://eduardocarrasco.photography">Eduardo Carrasco</a>
       </div>
     </div>
