@@ -104,7 +104,7 @@ switch ($id) {
     $categoria = "Diseño Logo";
     $titulo    = "Logo Desarrollo Visionario";
     $cliente   = "Desarrollo Visionario, C.A.";
-    $img       = "assets/img/ux-ui-pruebas-usuarios-experiencia-interfaz.jpg";
+    $img       = "assets/img/log_desarrollo_visioanrio.jpg";
     $fecha     = "Abr - 2019";
     $url       = "N/A";
     $link      = " ";

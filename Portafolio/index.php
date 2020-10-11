@@ -858,7 +858,7 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/log_asocivil_cesarl.jpg" class="img-fluid" alt="Diseño UX/UI Asocivil Cesar Luis Carrasco Monsalva">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/log_asocivil_cesarl.jpg" data-gall="portfolioGallery" class="venobox" title="UX/UI Asocivil Cesar Luis Carrasco Monsalva"><i class="bx bx-link"></i></a>
+                <a href="http://www.asocivilcesarl.com" target="blank" title="UX/UI Asocivil Cesar Luis Carrasco Monsalva"><i class="bx bx-link"></i></a>
                 <a href="portfolio-details.php?id=4" title="Más Detalle"><i class="bx bx-plus"></i></a>
               </div>
             </div>
