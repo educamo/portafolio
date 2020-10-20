@@ -554,7 +554,7 @@
           <h2>Resumen</h2>
         </div>
         <p>
-          <a class="btn btn-primary" href="#" role="button" aria-expanded="false">
+          <a class="btn btn-primary" href="assets/pdf/resumen-curricular-Cesar-Eduardo-Carrasco.pdf " role="button" aria-expanded="false">
             Descargar Resumen
           </a>
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
