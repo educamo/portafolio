@@ -189,7 +189,7 @@ switch ($id) {
         <ul>
           <li class="active"><a href="index.php"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="index.php#about"><i class="bx bx-user"></i> <span>Acerca de mi</span></a></li>
-          <li><a href="index.php#resume"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
+          <li><a href="index.php#resume"><i class="bx bx-file-blank"></i> <span>Síntesis Curricular</span></a></li>
           <li><a href="index.php#portfolio"><i class="bx bx-book-content"></i> Portafolio</a></li>
           <li><a href="index.php#services"><i class="bx bx-server"></i> Servicios</a></li>
           <li><a href="index.php#contact"><i class="bx bx-envelope"></i> Contacto</a></li>

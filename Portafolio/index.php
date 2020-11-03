@@ -59,7 +59,7 @@
         <ul>
           <li class="active"><a href="index.php"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>Acerca de mi</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Síntesis Curricular</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portafolio</a></li>
           <li><a href="#services"><i class="bx bx-server"></i> Servicios</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
@@ -551,21 +551,21 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Resumen</h2>
+          <h2>Síntesis Curricular</h2>
         </div>
         <p>
-          <a class="btn btn-primary" href="assets/pdf/resumen-curricular-Cesar-Eduardo-Carrasco.pdf " role="button" aria-expanded="false">
+          <a class="btn btn-primary" href="assets/pdf/resumen-curricular-Cesar-Eduardo-Carrasco.pdf " target="_blank" role="button" aria-expanded="false">
             Descargar Resumen
           </a>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Mostrar Resumen
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="mostrarResumen">
+            <span id="h">Mostrar Síntesis Curricular</span>
           </button>
         </p>
 
         <div class="collapse" id="collapseExample">
           <div class="row">
             <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Resumen Curricular</h3>
+              <h3 class="resume-title">Síntesis Curricular</h3>
               <div class="resume-item pb-0">
                 <h4>César Eduardo Carrasco monsalva</h4>
                 <p><em>Diseñador y Desarrollador Web, fotógrafo con conocimientos en diseño gráfico, innovador y con más de 10 años de experiencia diseñando y desarrollando aplicaciones web y desktop, responsable y profesional.</em></p>
@@ -785,7 +785,6 @@
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2>Portafolio </h2>
           <p>A continuación se muestran algunos de mis trabajos o proyectos realizados, a lo largo de mi carrera profesional.</p>
@@ -1035,23 +1034,23 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Tu nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="por favor ingrese su nombre" />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">tu Correo</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Por favor ingrese un email valido" />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Asunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Ingrese al menos 8 caracteres de asunto" />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
                 <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" data-rule="required" data-msg="Por favor escriba su mensaje"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
@@ -1099,6 +1098,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    $("#mostrarResumen").click(function() {
+      if ($("#h").text() == 'Mostrar Síntesis Curricular') {
+        $("#h").text('Ocultar Síntesis Curricular');
+      } else {
+        $("#h").text('Mostrar Síntesis Curricular');
+      }
+    });
+  </script>
 
 </body>
 
