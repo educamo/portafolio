@@ -274,7 +274,7 @@
             </div>
 
             <div>
-              <h3 class="skills-title">Tecnologías, Servicios y Herramientas</h3>
+              <h3 class="skills-title">Tecnologías, Servicios, arquitecturas y Herramientas</h3>
             </div>
 
             <div class="progress">
@@ -288,6 +288,13 @@
               <span class="skill">API <i class="val">82%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            
+            <div class="progress">
+              <span class="skill">rest <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -404,7 +411,14 @@
             <div class="progress">
               <span class="skill">Woocommerce <i class="val">30%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Moodle <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -497,13 +511,6 @@
               <span class="skill">http <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">rest <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
