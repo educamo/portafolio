@@ -24,7 +24,7 @@ $name     = $_POST['name'];
 
 $email    = $_POST['email'];
 
-$comments = $_POST['comments'];
+$comments = $_POST['message'];
 
 
 
@@ -84,7 +84,7 @@ if(get_magic_quotes_gpc()) {
 
 //$address = "example@example.net";
 
-$address = "contacto@eduardocarrasco.photography";
+$address = "educamo@eduardocarrasco.photography";
 
 
 
@@ -100,7 +100,7 @@ $address = "contacto@eduardocarrasco.photography";
 
 
 
-$e_subject = 'Usted ha sido contactado por ' . $name . '.';
+$e_subject = $_POST['subject'];
 
 
 
