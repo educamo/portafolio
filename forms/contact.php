@@ -84,7 +84,7 @@ if(get_magic_quotes_gpc()) {
 
 //$address = "example@example.net";
 
-$address = "educamo@eduardocarrasco.photography";
+$address = "contacto@eduardocarrasco.photography";
 
 
 
