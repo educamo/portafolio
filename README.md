@@ -1,12 +1,12 @@
-# eduardocarrasco.photography
+# Portafolio
 
-repositorio del website eduardocarrasco.photography
+repositorio del website de mi Portafolio
 
-http://eduardocarrasco.photography/ Eduardo Carrasco Photography WebSite
+http://eduardocarrasco.photography/Portafolio/ Eduardo Carrasco Portafolio
 
 ## **descripcion**
 
-Sitio web, de Eduardo Carrasco, fotógrafo profesional ubicado en la ciudad de valencia, estado Carabobo. Venezuela - Fotógrafo de bodas – fotógrafo de eventos – fotografía profesional de modelos – fotos artísticas – retratos – documentales – director de fotografía – producción audiovisual – director – asesoramiento empresarial – branding – marketing digital – SEO – experto en posicionamiento web – fotógrafo profesional de bodas en valencia – fotógrafo en valencia Venezuela – fotógrafo en Carabobo – fotógrafos de Venezuela. Fotógrafo Profesional de Valencia, Carabobo. EC Fotografia, Diseño, Eduardo Carrasco - Eventos - Fiestas -  Modelos - Artístico - Retratos - y más - Events - Models - Partys - Arts, Wedding Photographer, Fotografo Profesional Valencia, Fotógrafo, CEO trainer en Valencia, Carabobo, Venezuela.
+Sitio web, de Cesar Eduardo Carrasco, Portafolio profesional de Web Develop y App Develop
 
 Portafolio Desarrollador web Semi Senior Full Stack y de APPs móbiles, fotógrafo con conocimientos en cinematografía y producción audiovisual, además apasionado por el marketing digital y el diseño gráfico.
 
@@ -81,7 +81,7 @@ Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y
 
 ## Versionado 📌
 
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
+Use Git para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
 
 ## Autores ✒️
         C. Eduardo Carrasco - desarrollo
